@@ -39,19 +39,17 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+        <h2 className={styles.sectionHeadText}>About Us</h2>
+        <hr className="w-72" />
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+     Welcome to <b>Quicclues</b>, where creativity meets innovation! We are your <b> one-stop destination </b> for all your digital needs, specializing in website development, Android & iOS app creation, video editing, and more.
+     Our team of experts is dedicated to bringing your ideas to life with cutting-edge technology and stunning designs. Whether you're a startup looking to establish your online presence or an established business aiming for digital transformation, we've got you covered.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

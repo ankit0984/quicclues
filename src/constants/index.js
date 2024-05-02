@@ -1,6 +1,11 @@
 import {
   mobile,
   backend,
+  uiIcon,
+  webIcon,
+  androidIcon,
+  creatorIcon,
+  analysisIcon,
   creator,
   web,
   javascript,
@@ -23,16 +28,27 @@ import {
   jobit,
   tripguide,
   threejs,
+  arIcon,
+  vedioIcon,
+  SocialIcon,
+  graphicIcon,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "Home",
+    title: "Home",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "Services",
+    title: "Services",
+  },{
+    id: "Projects",
+    title: "Projects",
+  },
+  {
+    id: "Carrier",
+    title: "Carrier",
   },
   {
     id: "contact",
@@ -42,16 +58,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Web Development",
+    icon: webIcon,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Android / ios Development",
+    icon: androidIcon,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "UI/UX Design",
+    icon: uiIcon,
   },
   {
     title: "Content Creator",
@@ -116,74 +132,72 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Web Development",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: webIcon,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
   {
-    title: "React Native Developer",
+    title: "Android/ios Development",
     company_name: "Tesla",
-    icon: tesla,
+    icon: androidIcon,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "UI/UX Design",
+    icon: uiIcon,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    title: "AR/VR Development",
+    company_name: "Shopify",
+    icon: arIcon,
+    iconBg: "#383E56",
   },
+  {
+    title: "Digital Marketing",
+    company_name: "Meta",
+    icon: creatorIcon,
+    iconBg: "#E6DEDD",
+   
+  },
+  {
+    title:"Vedio Editing",
+    icon: vedioIcon,
+    iconBg: '#E6DEDD',
+  },
+  {
+    title:"Social Media Marketing",
+    icon: SocialIcon,
+    iconBg: '#E6DEDD',
+  },
+  {
+    title:"Graphic Design",
+    icon: graphicIcon,
+    iconBg: '#E6DEDD',
+  },
+  {
+    title:"Data Analysis",
+    icon: analysisIcon,
+    iconBg: '#E6DEDD',
+  }
 ];
 
 const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Aryan Singh",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Aavaland",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Subham Pratap Singh",
+    designation: "CEO",
+    company: "luxabord",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
