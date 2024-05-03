@@ -133,30 +133,26 @@ const technologies = [
 const experiences = [
   {
     title: "Web Development",
-    company_name: "Starbucks",
     icon: webIcon,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
   },
   {
     title: "Android/ios Development",
-    company_name: "Tesla",
     icon: androidIcon,
     iconBg: "#E6DEDD",
   },
   {
     title: "UI/UX Design",
     icon: uiIcon,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
   },
   {
     title: "AR/VR Development",
-    company_name: "Shopify",
     icon: arIcon,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
   },
   {
     title: "Digital Marketing",
-    company_name: "Meta",
     icon: creatorIcon,
     iconBg: "#E6DEDD",
    
