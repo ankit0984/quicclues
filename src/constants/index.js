@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   uiIcon,
+  testimonial_avatar,
   webIcon,
   androidIcon,
   creatorIcon,
@@ -186,7 +187,7 @@ const testimonials = [
     name: "Aryan Singh",
     designation: "CFO",
     company: "Aavaland",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: testimonial_avatar,
   },
   {
     testimonial:

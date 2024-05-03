@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import webIcon from "./web-development.webp";
 import androidIcon from "./android-dev.webp";
 import arIcon from "./ar-touch.webp";
+import testimonial_avatar from "./aryan-avtar.jpg";
 import creator from "./creator.png";
 import vedioIcon from './vedio-editing.webp';
 import SocialIcon from "./social-media.webp";
@@ -44,6 +45,7 @@ export {
   uiIcon,
   webIcon,
   androidIcon,
+  testimonial_avatar,
   SocialIcon,
   vedioIcon,
   arIcon,
