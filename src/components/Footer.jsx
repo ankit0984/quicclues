@@ -7,7 +7,7 @@ function Footer() {
     <div className= "w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a className= "flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         
-        <img src={logo1} alt="" srcset="" className= "w-14 h-14 text-white p-2  rounded-full"/>
+        <img src={logo1} alt="" className= "w-14 h-14 text-white p-2  rounded-full"/>
 
         <span className= "text-gray-500 ml-3 text-xl">Quicclues</span>
       </a>
@@ -16,20 +16,42 @@ function Footer() {
     <div className= "flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div className= "lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 className= "title-font font-medium text-white tracking-widest text-md mb-3">Services</h2>
-        <h2 className= "title-font font-medium text-white tracking-widest text-md mb-3">Projects</h2>
-        <h2 className= "title-font font-medium text-white tracking-widest text-md mb-3">Carrier</h2>
-         
+        {/* <h2 className= "title-font font-medium text-white tracking-widest text-md mb-3">Projects</h2>
+        <h2 className= "title-font font-medium text-white tracking-widest text-md mb-3">Carrier</h2> */}
+         <nav className="list-none mb-10 space-y-2">
+          <li>
+            <a className="text-gray-600 hover:text-white"> Web development</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-white"> Android/ios development</a>
+          </li>
+          <li
+             className="text-gray-600 hover:text-white"> UI/UX design
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-white"> AR/VR development</a>
+          </li>
+          <li>
+            <a className="text-gray-600 hover:text-white"> Content Creation</a>
+          </li>
+          
+          
+        </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-300 tracking-widest text-sm mb-3">Contact us</h2>
-        <nav class="list-none mb-10 space-y-2">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 className="title-font font-medium text-gray-300 tracking-widest text-sm mb-3">Contact us</h2>
+        <nav className="list-none mb-10 ">
           <li>Email:
-            <a class="text-gray-600 hover:text-gray-800"> <br /> Contact@Quicclues.in</a>
+            <a className="text-gray-600" href='mailto:Contact@Quicclues.in'> <br /> Contact@Quicclues.in</a>
           </li>
           <li>contact number:
-            <a class="text-gray-600 hover:text-gray-800"><br />+91 9006400822</a>
+            <a className="text-gray-600" href='tel:+91 9006400822'><br />+91 9006400822</a>
+          </li>
+          <li>
+          <a href='/' className='text-gray-600'>Carrier</a>
           </li>
         </nav>
+        
       </div>
 
     </div>
