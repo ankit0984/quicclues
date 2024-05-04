@@ -79,7 +79,7 @@ const Services = () => {
   );
 };
 
-export default SectionWrapper(Services, "work");
+export default SectionWrapper(Services, "services");
 
 
 // import React from 'react'

@@ -3,8 +3,8 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
 import Services from "./Services";
-import Works from "./Works";
-import Feedbacks from "./Feedbacks";
+import Projects from "./Project";
+import Testimonial from "./Testimonial";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
@@ -15,8 +15,8 @@ export {
   Navbar,
   About,
   Services,
-  Works,
-  Feedbacks,
+  Projects,
+  Testimonial,
   Contact,
   CanvasLoader,
   EarthCanvas, 
